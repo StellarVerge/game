@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "strict": true,
+        "module": "es2022",
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        ".git",
+        ".github",
+    ],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+}
